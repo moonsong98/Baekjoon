@@ -26,9 +26,9 @@ int main(void) {
             break;
         }
     }
-    if(flag)
-        for(int i = 0; i < vec.size(); ++i)
-            std::cout << vec[i] << '\n';
+    if (flag)
+        for (const char& e : vec)
+            std::cout << e << '\n';
     else 
         std::cout << "NO" << '\n';
 }
